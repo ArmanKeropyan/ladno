@@ -1,0 +1,27 @@
+p {
+    color: rgb(193, 77, 77);
+}
+
+h2 {
+    color: rgb(140, 176, 34);
+}
+
+.warning {
+    color: rgb(16, 55, 182);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.img-border {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: azure;
+}
+
+.content {
+    background-color: rgb(196, 178, 178);
+    width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+}
