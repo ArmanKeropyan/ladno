@@ -54,8 +54,8 @@
         <label for="number-result-base">Основание</label>
         <input type="text" value="" id="number-result-base" size="2">
         <button onclick="getNumberConv()">Посчитать</button>
-        <h2> Перевод из любой системы счисления в десятичную
-        </h2>
+        <p class="answer">Ответ: <span class="js-result-conv"></span></p>
+        <h2> Перевод из любой системы счисления в десятичную</h2>
         <p>
             Для того, чтобы научиться переводить числа из любой другой системы в десятичную, проанализируем привычную
             нам
@@ -77,6 +77,12 @@
         </h2>
         <p> Введите число и основание его системы счисления
         </p>
+        <label for="number-conv">Число</label>
+        <input type="text" value="" id="number-conv" size="8">
+        <label for="number-conv-base">Основание</label>
+        <input type="text" value="" id="number-conv-base" size="2">
+        <button onclick="getNumberDec()">Посчитать</button>
+        <p class="answer">Ответ: <span class="js-result-10"></span></p>
     </div>
     <script src="js/script.js"></script>
 </body>

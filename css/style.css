@@ -1,13 +1,13 @@
 p {
-    color: rgb(193, 77, 77);
+    color: rgb(0, 0, 0);
 }
 
 h2 {
-    color: rgb(140, 176, 34);
+    color: rgb(163, 29, 29);
 }
 
 .warning {
-    color: rgb(16, 55, 182);
+    color: rgb(0, 0, 0);
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -19,7 +19,7 @@ h2 {
 }
 
 .content {
-    background-color: rgb(196, 178, 178);
+    background-color: rgb(49, 154, 162);
     width: 900px;
     margin: 0 auto;
     padding: 15px;
